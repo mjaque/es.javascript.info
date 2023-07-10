@@ -77,7 +77,7 @@ El método `getElementById` sólo puede ser llamado en el objeto `document`. Bus
 ## querySelectorAll [#querySelectorAll]
 
 Sin duda el método más versátil, `elem.querySelectorAll(css)` devuelve todos los elementos dentro de `elem` que coinciden con el selector CSS dado.
-
+/
 Aquí buscamos todos los elementos `<li>` que son los últimos hijos:
 
 ```html run
@@ -221,7 +221,7 @@ Para encontrar todas las etiquetas `input` dentro de una tabla:
 ```warn header="¡No olvides la letra `\"s\"`!"
 Los desarrolladores novatos a veces olvidan la letra `"s"`. Esto es, intentan llamar a `getElementByTagName` en vez de a <code>getElement<b>s</b>ByTagName</code>.
 
-La letra `"s"` no se encuentra en `getElementById` porque devuelve sólo un elemento. But `getElementsByTagName` devuelve una colección de elementos, de ahí que tenga la `"s"`.
+La letra `"s"` no se encuentra en `getElementById` porque devuelve sólo un elemento. Pero `getElementsByTagName` devuelve una colección de elementos, de ahí que tenga la `"s"`.
 ```
 
 ````warn header="¡Devuelve una colección, no un elemento!"
